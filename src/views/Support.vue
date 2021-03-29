@@ -1,25 +1,17 @@
 <template>
-
-  <div id="app"><div class="home">
+  <div class="support">
+    
           <div id="but">
-          <router-link to="/Support"><h2>Support</h2></router-link>
+          <router-link to="/WhatToSay"><h2>What to say</h2></router-link>
           </div>
           <div id="but">
-          <router-link to="/Resources"><h2>Resources</h2></router-link>
-</div>     
-
+          <router-link to="#"><h2>What to do</h2></router-link>
+</div>
     <h5></h5>
   </div>
-  </div>
 </template>
-
-<script>
-export default {
-  
-}
-</script>
-<style>
-h2{
+<style scoped>
+.support h2{
   font-weight: bold;
   color: #003a65;
   text-decoration: none;
@@ -27,8 +19,6 @@ h2{
 }
 a {
   text-decoration: none;
-}#nav a.router-link-exact-active:last-child{
-  color: #d91a35;
 }
 #but {
   background-color: #cfcfcf;
@@ -45,4 +35,6 @@ a {
   #but:hover{
     background-color: #003a65;
   }
+  
+
 </style>
