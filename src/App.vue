@@ -59,4 +59,25 @@ width: 100px;}
   justify-content: center;
   border: #CF0020 solid 2px;
   }
+ @media screen and (max-width: 992px) {
+  #nav .emergency {
+    width: 30%;
+    font-size: 75%;
+    margin-right: 0;
+    margin-top: 5%;
+  }
+  #nav #support{
+    margin-top: 5%;
+      margin-right: 0;
+
+  }
+  #nav {
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+  img{
+    height:50%;
+  }
+
+}
 </style>
