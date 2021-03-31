@@ -1,48 +1,42 @@
 <template>
+  <div id="app">
+    <div id="banner">
+      <img src="../assets/img1.jpg"/>
+      <h2>Supporting mental health in other people</h2>
+      <h2>
+      <a href="https://www.ncl.ac.uk/wellbeing/mentalwellbeing/mentalwellbeing/wellbeing-consultancy/"> Worried about a student? </a></h2>
+    </div>
+    <div id="banner2">
+      </div>
+      <img src="../assets/Urban-Sciences-Building-Newcastle-University.jpg" id="usb"/>
 
-  <div id="app"><div class="home">
-          <div id="but">
-          <router-link to="/Support"><h2>Support</h2></router-link>
-          </div>
-          <div id="but">
-          <router-link to="/Resources"><h2>Resources</h2></router-link>
-</div>     
-
-    <h5></h5>
-  </div>
   </div>
 </template>
 
 <script>
-export default {
-  
-}
+export default {};
 </script>
 <style>
-h2{
-  font-weight: bold;
-  color: #003a65;
-  text-decoration: none;
-  padding-top: 1.5rem;
+#banner2{
+  width: 100%;
+  margin-top: 0;
+  position: relative;
 }
-a {
-  text-decoration: none;
-}#nav a.router-link-exact-active:last-child{
-  color: #d91a35;
+#usb{
+  width: 40%;
+  margin-top: 0;
 }
-#but {
-  background-color: #cfcfcf;
-  height: 5rem;
-  width: 50%;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  }
-  #but:hover h2{
-    color: #cfcfcf;
-  }
-  #but:hover{
-    background-color: #003a65;
-  }
+#banner{
+  background-color: #CCD0D7;
+  height: 295px;
+  margin-top: 0;
+}
+#banner img {
+height: 295px;
+margin-top: 0;
+}
+#banner h2{
+  margin: 0;
+  padding-top: 60px;
+}
 </style>
