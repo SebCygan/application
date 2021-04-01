@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/" class="home">
-        <img src="./assets/Newcastle_University_logo.png"/>
+        <img src="./assets/Newcastle_University_logo.png" class="logo"/>
         </router-link><router-link to="/Emergency" class="emergency">EMERGENCY
       </router-link>
         <router-link to="/Support" id="support">Support for Academics</router-link>
@@ -22,7 +22,7 @@ export default {};
   color: #003A65;
   margin: 0;
 }
-img {
+.logo {
   float: left;
   height: 75%;
   margin-top: 20px;
@@ -75,7 +75,7 @@ width: 100px;}
   padding-left: 10px;
   padding-right: 10px;
   }
-  img{
+  .logo{
     height:50%;
   }
 
