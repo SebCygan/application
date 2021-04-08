@@ -16,7 +16,7 @@
       <img src="../assets/Urban-Sciences-Building-Newcastle-University.jpg" />
       <div id="text">
         <div class="but">
-          <a href="this is a link">This is a link </a>
+          <a href="/Resources">Resources</a>
         </div>
         <br />
         <div class="but">

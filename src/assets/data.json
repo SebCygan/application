@@ -1,15 +1,8 @@
 {
     "resources": [
-        {"condition": "Depression", "name": "NHS"
-        },
-        {"condition": "Depression", "name": "Student Minds"
-        },
-        {"condition": "Depression", "name": "Depression.org"
-        },
-        {"condition": "Depression", "name": "Nightline"
-        },
-        {"condition": "Depression", "name": "NHS"
-        }
-    ]
-        
+        {"id": "0", "url": "www.nhs.uk", "name": "NHS", "condition":"depression"},
+        {"id": "1","url": "www.StudentMinds.uk", "name": "StudentMinds","condition":"depression"},
+        {"id": "2","url": "www.StudentMinds.uk", "name": "StudentMinds","condition":"anxiety"}
+
+    ]        
 }
