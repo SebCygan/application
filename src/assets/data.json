@@ -1,8 +1,24 @@
 {
     "resources": [
-        {"id": "0", "url": "www.nhs.uk", "name": "NHS", "condition":"depression"},
-        {"id": "1","url": "www.StudentMinds.uk", "name": "StudentMinds","condition":"depression"},
-        {"id": "2","url": "www.StudentMinds.uk", "name": "StudentMinds","condition":"anxiety"}
+        {"id": "0", "url": "www.nhs.uk/oneyou/every-mind-matters/", "name": "Every Mind Matters", "condition":"all"},
+        {"id": "1","url": "www.StudentMinds.org.uk", "name": "Student Minds","condition":"all"},
+        {"id": "2","url": "www.nusu.co.uk/support/nightline/", "name": "Nightline","condition":"all"},
+        {"id": "3","url": "www.studentsagainstdepression.org", "name": "Students Against Depression","condition":"depression"},
+        {"id": "4","url": "www.talktofrank.com/get-help/find-support-near-you", "name": "Frank","condition":"drugAbuse"},
+        {"id": "5","url":"www.mind.org.uk", "name":"Mind","condition":"all"},
+        {"id": "6","url":"www.studentminds.org.uk/lookingafteryourmentalwellbeing.html", "name":"Student Minds Mental Health Resources","condition":"all"},
+        {"id": "7","url":"www.studentminds.org.uk/examstress.html", "name":"Student Minds Exam Stress Help","condition":"stress"},
+        {"id": "8","url":"www.anxietyuk.org.uk", "name":"Anxiety Uk","condition":"anxiety"},
+        {"id": "9","url":"www.thecalmzone.net", "name":"CALM - Campaign Against Living Miserably (Men-Specific)","condition":"all"},
+        {"id": "10","url":"www.mentalhealth.org.uk/your-mental-health/looking-after-your-mental-health", "name":"Mental Health Foundation","condition":"all"},
+        {"id": "11","url":"www.papyrus-uk.org", "name":"PAPYRUS - Prevention of Young Suicide","condition":"all"},
+        {"id": "12","url":"www.rethink.org", "name":"Rethink","condition":"all"},
+        {"id": "13","url":"http://www.sane.org.uk/support", "name":"Sane","condition":"all"},
+        {"id": "14","url":"cocaineanonymous.org.uk", "name":"Cocaine Anonymous","condition":"drugAbuse"},
+        {"id": "15","url":"marijuana-anonymous.org.uk", "name":"Marijuana Anonymous","condition":"drugAbuse"},
+        {"id": "16","url":"ukna.org", "name":"Narcotivs Anonymous UK","condition":"drugAbuse"},
+        {"id": "17","url":"smartrecovery.org.uk", "name":"Smart Recovery","condition":"drugAbuse"},
+        {"id": "18","url":"www.gamblersanonymous.org.uk", "name":"Gamblers Anonymous","condition":"drugAbuse"}
 
     ]        
 }

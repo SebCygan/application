@@ -1,6 +1,18 @@
 <template>
   <div id="app">
     <div id="topbanner">
+      <img src="../assets/Urban-Sciences-Building-Newcastle-University.jpg" />
+      <div id="text">
+        <h2>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
+          vero minima facilis sequi ex distinctio accusamus possimus porro,
+          quasi nihil, aperiam officiis vitae id totam asperiores repellendus
+          reiciendis iure facere.
+        </h2>
+      <a class="but" href="/Resources">Resources</a>
+      </div>
+    </div>
+    <div id="topbanner">
       <img src="../assets/img1.jpg" />
       <div id="text">
         <h2>
@@ -9,19 +21,7 @@
           quasi nihil, aperiam officiis vitae id totam asperiores repellendus
           reiciendis iure facere.
         </h2>
-        <a href="this is a link">This is a link </a>
-      </div>
-    </div>
-    <div id="bottomBanner">
-      <img src="../assets/Urban-Sciences-Building-Newcastle-University.jpg" />
-      <div id="text">
-        <div class="but">
-          <a href="/Resources">Resources</a>
-        </div>
-        <br />
-        <div class="but">
-          <a href="this is a link">This is a link </a>
-        </div>
+      <a class="but" href="/Resources">Resources</a>
       </div>
     </div>
   </div>
@@ -31,14 +31,38 @@
 export default {};
 </script>
 <style>
+@media screen and (max-width: 992px) {
+  #app #topbanner img {
+    height: 20%;
+    width: 100%;
+  }
+  #app #topbanner {
+    margin-top: 0;
+    display: block;
+    background-color: #ccd0d7;
+    height: 100%;
+  }
+  #app h2,
+  a {
+    font-size: 80%;
+  }
+  
+  a.but {
+    border: #000000 solid 2px;
+    padding: 5px;
+    background-color: #ffffff;
+  }
+}
 #topbanner img {
   float: left;
-  height: auto;
+  height: 100%;
 }
 #topbanner {
   margin-top: 0;
   display: flex;
   background-color: #ccd0d7;
+  height: 100%;
+  padding-bottom: 10px;
 }
 #text {
   flex-wrap: wrap;
@@ -48,16 +72,8 @@ a {
   margin: 0;
   text-decoration: none;
 }
-#bottomBanner img {
-  float: left;
-  height: auto;
-}
-#bottomBanner {
-  margin-top: 0;
-  display: flex;
-  background-color: #00000040;
-}
-.but {
+
+a.but {
   border: #000000 solid 2px;
   padding: 5px;
   background-color: #ffffff;

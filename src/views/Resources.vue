@@ -7,7 +7,7 @@
     <div class="accordion" role="tablist">
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-1 variant="info"
+          <b-button block v-b-toggle.accordion-1 variant="info" id="accordion-buttons"
             >Depression Resources</b-button
           >
         </b-card-header>
@@ -24,8 +24,9 @@
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <p v-if="resource.condition == 'depression'">
-                  Name : {{ resource.name }} URL : {{ resource.url }}
+                <p v-if="resource.condition == 'depression'|| resource.condition == 'all'">
+                  {{ resource.name }} <br />Link:
+                  <a :href="'http://' + resource.url">{{ resource.url }}</a>
                 </p>
               </div>
             </b-card-text>
@@ -35,30 +36,31 @@
 
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-2 variant="info"
+          <b-button block v-b-toggle.accordion-2 variant="info" id="accordion-buttons"
             >Anxiety Resources</b-button
           >
         </b-card-header>
         <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
           <b-card-body>
-            <b-card-text
-              ><div
+            <b-card-text>
+              <div
                 id="anxiety"
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <p v-if="resource.condition == 'anxiety'">
-                  Name : {{ resource.name }} URL : {{ resource.url }}
+                <p v-if="resource.condition == 'anxiety' || resource.condition == 'all'">
+                  {{ resource.name }} <br />Link:
+                  <a :href="'http://' + resource.url">{{ resource.url }}</a>
                 </p>
-              </div></b-card-text
-            >
+              </div>
+            </b-card-text>
           </b-card-body>
         </b-collapse>
       </b-card>
 
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-3 variant="info"
+          <b-button block v-b-toggle.accordion-3 variant="info" id="accordion-buttons"
             >Accordion 3</b-button
           >
         </b-card-header>
@@ -100,5 +102,8 @@ export default {
   border: solid #000000 2px;
   height: 80%;
   margin: 10%;
+}
+#accordion-buttons {
+  background-color:#003A65;
 }
 </style>

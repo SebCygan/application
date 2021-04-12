@@ -8,12 +8,21 @@
         <router-link to="/Support" id="support">Support for Academics</router-link>
     </div>
     <router-view />
+    <div class="footer">
+      <hr>
+      Produced by Sebastien Cygan | Integrated Masters Dissertation 2021
+      </div>
   </div>
 </template>
 <script>
 export default {};
 </script>
 <style>
+.footer {
+  margin-top: 2px;
+  background-color: #003A6520;
+  padding-bottom: 10px;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
