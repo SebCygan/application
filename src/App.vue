@@ -5,7 +5,7 @@
         <img src="./assets/Newcastle_University_logo.png" class="logo"/>
         </router-link><router-link to="/Emergency" class="emergency">EMERGENCY
       </router-link>
-        <router-link to="/Support" id="support">Support for Academics</router-link>
+        <router-link to="/login" id="support">Academic Login</router-link>
     </div>
     <router-view />
     <div class="footer">

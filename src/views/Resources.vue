@@ -7,6 +7,34 @@
     <div class="accordion" role="tablist">
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
+          <b-button block v-b-toggle.accordion-0 variant="info" id="accordion-buttons"
+            >General Resources</b-button
+          >
+        </b-card-header>
+        <b-collapse
+          id="accordion-0"
+          visible
+          accordion="my-accordion"
+          role="tabpanel"
+        >
+          <b-card-body>
+            <b-card-text>
+              <div
+                id="depression"
+                v-for="resource of resources"
+                :key="resource.id"
+              >
+                <p v-if="resource.condition == 'all'">
+                  {{ resource.name }} <br />Link:
+                  <a :href="'http://' + resource.url">{{ resource.url }}</a>
+                </p>
+              </div>
+            </b-card-text>
+          </b-card-body>
+        </b-collapse>
+      </b-card>
+      <b-card no-body class="mb-1">
+        <b-card-header header-tag="header" class="p-1" role="tab">
           <b-button block v-b-toggle.accordion-1 variant="info" id="accordion-buttons"
             >Depression Resources</b-button
           >
@@ -24,7 +52,7 @@
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <p v-if="resource.condition == 'depression'|| resource.condition == 'all'">
+                <p v-if="resource.condition == 'depression'">
                   {{ resource.name }} <br />Link:
                   <a :href="'http://' + resource.url">{{ resource.url }}</a>
                 </p>
@@ -48,7 +76,7 @@
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <p v-if="resource.condition == 'anxiety' || resource.condition == 'all'">
+                <p v-if="resource.condition == 'anxiety'">
                   {{ resource.name }} <br />Link:
                   <a :href="'http://' + resource.url">{{ resource.url }}</a>
                 </p>
@@ -61,12 +89,48 @@
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
           <b-button block v-b-toggle.accordion-3 variant="info" id="accordion-buttons"
-            >Accordion 3</b-button
+            >Abuse Resources</b-button
           >
         </b-card-header>
         <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
           <b-card-body>
-            <b-card-text></b-card-text>
+            <b-card-text>
+              <div
+                id="abuse"
+                v-for="resource of resources"
+                :key="resource.id"
+              >
+                <p v-if="resource.condition == 'drugAbuse'">
+                  {{ resource.name }} <br />Link:
+                  <a :href="'http://' + resource.url">{{ resource.url }}</a>
+                </p>
+              </div>
+            </b-card-text>
+          </b-card-body>
+        </b-collapse>
+      </b-card>
+
+      
+      <b-card no-body class="mb-1">
+        <b-card-header header-tag="header" class="p-1" role="tab">
+          <b-button block v-b-toggle.accordion-4 variant="info" id="accordion-buttons"
+            >Stress Resources</b-button
+          >
+        </b-card-header>
+        <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+          <b-card-body>
+            <b-card-text>
+              <div
+                id="stress"
+                v-for="resource of resources"
+                :key="resource.id"
+              >
+                <p v-if="resource.condition == 'stress'">
+                  {{ resource.name }} <br />Link:
+                  <a :href="'http://' + resource.url">{{ resource.url }}</a>
+                </p>
+              </div>
+            </b-card-text>
           </b-card-body>
         </b-collapse>
       </b-card>
@@ -105,5 +169,9 @@ export default {
 }
 #accordion-buttons {
   background-color:#003A65;
+  justify-content: center;
+  margin-left: 0%;
+  margin-right: 0%;
 }
+
 </style>

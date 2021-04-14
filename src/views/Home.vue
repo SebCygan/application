@@ -62,7 +62,6 @@ export default {};
   display: flex;
   background-color: #ccd0d7;
   height: 100%;
-  padding-bottom: 10px;
 }
 #text {
   flex-wrap: wrap;
