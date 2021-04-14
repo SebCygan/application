@@ -1,6 +1,9 @@
 <template>
   <div class="app">
-    Login
+    Training
+    Signposting
+    Student Services
+    
     </div>
 </template>
 <style scoped>
