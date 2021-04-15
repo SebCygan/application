@@ -20,15 +20,20 @@
           <b-card-body>
             <b-card-text>
               <div
-                id="depression"
+                id="general"
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <p v-if="resource.condition == 'all'">
-                  {{ resource.name }} <br />Link:
+                <div id="inner-text" v-if= "resource.condition=='all'">
+                <br><h4> {{ resource.name }} </h4>
+                <p>Link:
                   <a :href="'http://' + resource.url">{{ resource.url }}</a>
-                </p>
-              </div>
+                  <br>                {{resource.description}}<hr>  
+                  
+                 </p>
+                  
+                </div>
+              </div> 
             </b-card-text>
           </b-card-body>
         </b-collapse>
@@ -52,11 +57,14 @@
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <p v-if="resource.condition == 'depression'">
-                  {{ resource.name }} <br />Link:
+               <div id="inner text" v-if= "resource.condition=='depression'">
+                 <h4> {{ resource.name }} </h4> <br />Link:
                   <a :href="'http://' + resource.url">{{ resource.url }}</a>
-                </p>
-              </div>
+                  <br>                  {{resource.description}}
+                  <br>                  <hr>
+
+                </div>
+              </div> 
             </b-card-text>
           </b-card-body>
         </b-collapse>
@@ -76,11 +84,14 @@
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <p v-if="resource.condition == 'anxiety'">
-                  {{ resource.name }} <br />Link:
+                <div id="inner text" v-if= "resource.condition=='anxiety'">
+                 <h4> {{ resource.name }} </h4> <br />Link:
                   <a :href="'http://' + resource.url">{{ resource.url }}</a>
-                </p>
-              </div>
+                  <br>                  {{resource.description}}
+                  <br>
+                  <hr>
+                </div>
+              </div> 
             </b-card-text>
           </b-card-body>
         </b-collapse>
@@ -89,22 +100,25 @@
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
           <b-button block v-b-toggle.accordion-3 variant="info" id="accordion-buttons"
-            >Abuse Resources</b-button
+            >Addiction Resources</b-button
           >
         </b-card-header>
         <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
           <b-card-body>
             <b-card-text>
               <div
-                id="abuse"
+                id="addiction"
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <p v-if="resource.condition == 'drugAbuse'">
-                  {{ resource.name }} <br />Link:
+                <div id="inner text" v-if= "resource.condition=='addiction'">
+                 <h4> {{ resource.name }} </h4> <br />Link:
                   <a :href="'http://' + resource.url">{{ resource.url }}</a>
-                </p>
-              </div>
+                  <br>                  {{resource.description}}
+                  <br>
+                  <hr>
+                </div>
+              </div> 
             </b-card-text>
           </b-card-body>
         </b-collapse>
@@ -125,11 +139,14 @@
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <p v-if="resource.condition == 'stress'">
-                  {{ resource.name }} <br />Link:
+                <div id="inner text" v-if= "resource.condition=='stress'">
+                 <h4> {{ resource.name }} </h4>
+                 Link:
                   <a :href="'http://' + resource.url">{{ resource.url }}</a>
-                </p>
-              </div>
+                  <br>                  {{resource.description}}
+                  <hr>
+                </div>
+              </div> 
             </b-card-text>
           </b-card-body>
         </b-collapse>
@@ -168,10 +185,18 @@ export default {
   margin: 10%;
 }
 #accordion-buttons {
-  background-color:#003A65;
+  background-color: #003a65;
   justify-content: center;
   margin-left: 0%;
   margin-right: 0%;
+}
+header {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+p {
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 </style>
