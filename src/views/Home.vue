@@ -76,7 +76,7 @@ export default {
   
 };
 </script>
-<style>
+<style scoped>
 @media screen and (max-width: 992px) {
   #app #topbanner img {
     height: 20%;

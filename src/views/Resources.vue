@@ -144,7 +144,6 @@
                  Link:
                   <a :href="'http://' + resource.url">{{ resource.url }}</a>
                   <br>                  {{resource.description}}
-                  <hr>
                 </div>
               </div> 
             </b-card-text>
@@ -191,12 +190,23 @@ export default {
   margin-right: 0%;
 }
 header {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 p {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-
+.card-header {
+  border: none;
+}
+.card {
+  border: none;
+}
+@media screen and (max-width: 1400px) {
+  p {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
 </style>

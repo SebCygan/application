@@ -1,39 +1,39 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Router from 'vue-router'
+import auth from '../auth.js'
 import Home from '../views/Home.vue'
+import Login from '../views/login.vue'
+import Support from '../views/Support.vue'
+import Resources from '../views/Resources.vue'
+import Emergency from '../views/Emergency.vue'
 
-Vue.use(VueRouter)
+Vue.use(Router)
 
-const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/support',
-    name: 'Support',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( '../views/Support.vue')
-  },
-  {
-    path: '/emergency',
-    name: 'Emergency',
-    component:() => import('../views/Emergency.vue')
-  },
-  {
-    path: '/resources/',
-    name: 'Resources',
-    component:() => import('../views/Resources.vue')
-  }
-]
-
-const router = new VueRouter({
+export default new Router({
   mode: 'history',
-  base: process.env.BASE_URL,
-  routes
+  base: __dirname,
+  routes: [
+    { path: '/', component: Home },
+    { path: '/resources', component: Resources },
+    { path: '/emergency', component: Emergency },
+    { path: '/support', component: Support, beforeEnter: requireAuth },
+    { path: '/login', component: Login },
+    { path: '/logout',
+      beforeEnter (to, from, next) {
+        auth.logout()
+        next('/')
+      }
+    }
+  ]
 })
 
-export default router
+function requireAuth (to, from, next) {
+  if (!auth.loggedIn()) {
+    next({
+      path: '/login',
+      query: { redirect: to.fullPath }
+    })
+  } else {
+    next()
+  }
+}
