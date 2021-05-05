@@ -4,6 +4,8 @@
       <img src="./assets/Newcastle_University_logo.png" class="logo" />
     </router-link>
     <b-navbar class="header" sticky=true id="nav">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <router-link to="/Support" id="support"
         >Support for Academics</router-link
       >
@@ -49,8 +51,7 @@ export default {
   padding-bottom: 10px;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
+font-family: 'Montserrat', sans-serif;  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #003a65;
@@ -94,7 +95,7 @@ body {
   #nav {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 80%;
+    font-size: 98%;
   }
   .logo {
     height: 50%;

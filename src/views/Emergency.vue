@@ -26,7 +26,7 @@
       3333 Tel: +44 (0)191 208 3333 <br>Chaplaincy Tel: +44 (0)191 208 3333 <br>All of
       the above are available during office hours. <hr><br>Newcastle University Security
       (available 24 hours a day, 7 days a week) <br>Tel: +44 (0)191 208 6817 Tel:
-      +44 (0)191 208 6666 (emergency number) <br>Emergency services (24 hour
+      +44 (0)191 208 6666 (emergency number) <br >Emergency services (24 hour
       emergency calls) Tel: 999 <br>Northumbria Police (24 hour non-emergency calls)
       Tel: 101 <br>NUSU emergency taxi service for students Tel: +44 (0)191 298 5050
       and quote reference NEW02.<br>
