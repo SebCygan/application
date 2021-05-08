@@ -125,31 +125,6 @@
       </b-card>
 
       
-      <b-card no-body class="mb-1">
-        <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-4 variant="info" id="accordion-buttons"
-            >Stress Resources</b-button
-          >
-        </b-card-header>
-        <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
-          <b-card-body>
-            <b-card-text>
-              <div
-                id="stress"
-                v-for="resource of resources"
-                :key="resource.id"
-              >
-                <div id="inner text" v-if= "resource.condition=='stress'">
-                 <h4> {{ resource.name }} </h4>
-                 Link:
-                  <a :href="'http://' + resource.url">{{ resource.url }}</a>
-                  <br>                  {{resource.description}}
-                </div>
-              </div> 
-            </b-card-text>
-          </b-card-body>
-        </b-collapse>
-      </b-card>
     </div>
 
     <div></div>

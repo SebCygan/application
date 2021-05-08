@@ -6,14 +6,15 @@ export default {
         this.onChange(true)
         return
       }
-      pretendRequest(email, pass, (res) => {
+      request(email, pass, (res) => {
         if (res.authenticated) {
           localStorage.token = res.token
           if (cb) cb(true)
           this.onChange(true)
         } else {
           if (cb) cb(false)
-          this.onChange(false)
+          this.onChange(false)       
+
         }
       })
     },
@@ -35,9 +36,9 @@ export default {
     onChange () {}
   }
   
-  function pretendRequest (email, pass, cb) {
+  function request (email, pass, cb) {
     setTimeout(() => {
-      if (email === 'joe@example.com' && pass === 'password1') {
+      if (email === 'joe@example.com' && pass === '1234') {
         cb({
           authenticated: true,
           token: Math.random().toString(36).substring(7)
