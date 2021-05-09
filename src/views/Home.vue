@@ -50,7 +50,7 @@
     <div id="topbanner2">
       <img src="../assets/studentBAME.jpg" id="BAME"/>
       <div id="text">
-        <h1>Black, Asian and Minority Ethnic students' mental health support</h1>
+        <h1>Black, Asian & Minority Ethnic students' mental health support</h1>
         <hr class="hrtest" />
         <section class="buttons">
           <div class="container">
@@ -88,7 +88,12 @@
 export default {};
 </script>
 <style scoped>
-@media screen and (max-width: 1500px) {
+
+#topbanner5 .container {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 968px) {
   #app #topbanner5 .container {
     flex-direction: column;
   }
@@ -96,14 +101,8 @@ export default {};
     margin-right: 0;
     margin-left: 0;
   }
-}
-#topbanner5 .container {
-  flex-direction: row;
-}
-
-@media screen and (max-width: 1500px) {
   #app #topbanner img {
-    height: 20%;
+    margin-bottom:5%;
     width: 100%;
   }
   #app #topbanner {
@@ -112,11 +111,19 @@ export default {};
   }
   #app h2,
   a {
-    font-size: 80%;
+    font-size: 60%;
+  }
+  h1 {
+    font-size:90%;
+  }
+  #app #topbanner h3,
+  #app #topbanner2 h3 {
+    font-size:65%;
   }
 
   #app #topbanner2 img {
-    height: 20%;
+        margin-bottom:5%;
+
     width: 100%;
   }
   #app #topbanner2 {
@@ -127,10 +134,7 @@ export default {};
   a {
     font-size: 80%;
   }
-
-
   #app #topbanner5 img {
-    height: 20%;
     width: 100%;
   }
   #app #topbanner5 {
@@ -141,10 +145,7 @@ export default {};
   a {
     font-size: 80%;
   }
-
-  
 }
-
 .btn {
   position: relative;
     margin: 8px;
@@ -160,7 +161,6 @@ export default {};
     -webkit-transition: ease-out 0.5s;
     -moz-transition: ease-out 0.5s;
 }
-
 .btn.btn-border-4::after,
 .btn.btn-border-4::before {
     position: absolute;
@@ -169,25 +169,21 @@ export default {};
     height: 0;
     transition: .5s;
 }
-
 .btn.btn-border-4::after {
     top: -5px;
     left: -5px;
     border-top: 3px solid transparent;
     border-left: 3px solid transparent;
 }
-
 .btn.btn-border-4::before {
     bottom: -5px;
     right: -5px;
     border-bottom: 3px solid transparent;
     border-right: 3px solid transparent;
 }
-
 .btn.btn-border-4:hover {
     color: #fff;
 }
-
 .btn.btn-border-4:hover::after,
 .btn.btn-border-4:hover::before {
     width: calc(100% + 10px);
@@ -196,7 +192,7 @@ export default {};
 }
 #topbanner img {
   float: left;
-  width: 30%;
+  width: 40%;
 }
 #topbanner {
   margin-top: 10px;
@@ -213,7 +209,6 @@ export default {};
   color: #fff;
   padding: 1rem;
 }
-
 #text {
   flex-wrap: wrap;
 }
@@ -223,7 +218,6 @@ a {
   text-decoration: none;
   color: #fff;
 }
-
 #topbanner2 {
   background-color: #7a3e59;
   margin-top: 10px;
@@ -233,7 +227,7 @@ a {
 }
 #topbanner2 img {
   float: left;
-  width: 30%;
+  width: 40%;
 }
 #topbanner h3 {
   text-transform: uppercase;

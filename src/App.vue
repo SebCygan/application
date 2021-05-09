@@ -153,7 +153,7 @@ body {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 968px) {
   #support {
     margin-right: 0;
     font-size: 80%;
@@ -161,10 +161,20 @@ body {
   #nav {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 98%;
+    font-size: 70%;
+  }
+  #support{
+    margin-left:5%;
+    margin-right:5%;
+  }
+  #emergency {
+    margin-right:auto;
+    margin-left:auto;
+    width:50%;
+    display:block;
   }
   .logo {
-    height: 50%;
+    width:40%;
   }
 }
 </style>

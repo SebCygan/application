@@ -1,4 +1,5 @@
 <template>
+<!-- Change follow up page and action page -->
   <div class="app">
     <h1>Support for Academics</h1>
     <b-tabs  content-class="mt-3" fill>

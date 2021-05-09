@@ -10,6 +10,7 @@
           <b-button block v-b-toggle.accordion-0 variant="info" id="accordion-buttons"
             >General Resources</b-button
           >
+          <!-- Change these to no background with a small arrow, uppercase General and remove resources -->
         </b-card-header>
         <b-collapse
           id="accordion-0"
@@ -167,6 +168,9 @@ export default {
 header {
   margin-left: 20%;
   margin-right: 20%;
+}
+.card-header {
+background-color:#fff;
 }
 p {
   margin-left: 10%;
