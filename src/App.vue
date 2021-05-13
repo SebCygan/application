@@ -12,6 +12,8 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
         rel="stylesheet"
       />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
       <router-link to="/Support" id="support"
         >Support for Academics</router-link
       >
@@ -90,7 +92,9 @@ export default {
     height: 0;
     transition: .5s;
 }
-
+p {
+  font-family: 'Montserrat', sans-serif;
+}
 .btn.btn-border-4::after {
     top: -5px;
     left: -5px;

@@ -141,7 +141,7 @@
       <b-tab title="Action" class="tabsForSupport second col-12">
         <div class="support">
           
-          <div class="col-6">
+          <div class="col-4">
 
             <h5>
               <b> As an academic, you can: </b>
@@ -174,23 +174,22 @@
               the student is requesting support from a particular service
             </p>
           </div>
-          <div class="col-3 urgent">
+          <div class="col-4 urgent">
+            <h4 style="text-transform:uppercase;">Aid for Sexual Assault </h4>
             <p>
               If a student is a victim of a sexual crime and wants to report it
               to the police, they should ring 999 in an emergency, or 101 in a
-              non-emergency. <br />Encourage the student to seek support from
+              non-emergency. <br/> <br/> Encourage the student to seek support from
               REACH, the local Sexual Assault Referral Centre; REACH staff offer
               support whether or not the student wishes to report the assault to
-              the police and can be contacted on +44 (0)191 221 9222. <br />They
+              the police and can be contacted on +44 (0)191 221 9222. <br /><br/>They
               can also receive support from Rape Crisis Tyneside and
-              Northumberland on 0800 035 2794. Newcastle University is committed
-              to providing a positive experience for our students and believe
-              that abusive behaviours are never acceptable. <br />
+              Northumberland on 0800 035 2794.
             </p>
           </div>
-          <div class="col-6 row">
+          <div class="col-3 ">
             <img
-              style="width: 15%; align-content: center"
+              style="width: 13%;"
               src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik01MDkuMDQyLDM1NS44NjJsLTI0LjQwOS0yNC4yMWMtMy45MjMtMy44OTEtMTAuMjU1LTMuODY0LTE0LjE0NSwwLjA1OGMtMy44OTEsMy45MjItMy44NjQsMTAuMjU1LDAuMDU4LDE0LjE0NQ0KCQkJbDI0LjQwOCwyNC4yMWMxLjk1LDEuOTM1LDQuNDk3LDIuOTAxLDcuMDQzLDIuOTAxYzIuNTczLDAsNS4xNDYtMC45ODcsNy4xMDEtMi45NTkNCgkJCUM1MTIuOTksMzY2LjA4NSw1MTIuOTY0LDM1OS43NTIsNTA5LjA0MiwzNTUuODYyeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNNDU5Ljc2MiwzMDYuODgxYy0zLjkwNi0zLjkwNi0xMC4yMzctMy45MDYtMTQuMTQ1LDBsLTAuMDE3LDAuMDE3Yy0zLjkwNiwzLjkwNi0zLjg5NywxMC4yMzEsMC4wMDksMTQuMTM3DQoJCQljMS45NSwxLjk1MSw0LjUwOSwyLjkyNiw3LjA2NywyLjkyNmMyLjU2NCwwLDUuMTMtMC45NzksNy4wODUtMi45MzRDNDYzLjY2NywzMTcuMTIxLDQ2My42NjcsMzEwLjc4OCw0NTkuNzYyLDMwNi44ODF6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0zNzQuNDkzLDM1M2w5Ny4wMjgtOTcuMDI3YzE0LjY5NS0xNC42OTYsMTQuNjk1LTM4LjYwOC0wLjAwMS01My4zMDRjLTUuMTgyLTUuMTgyLTExLjUxMS04LjUyOC0xOC4xNzctMTAuMDU1DQoJCQljMi4yODYtNC45MTQsMy40OTYtMTAuMzA3LDMuNDk2LTE1Ljg4OGMwLTEwLjA2OC0zLjkyMS0xOS41MzMtMTEuMDM5LTI2LjY1MWMtNS41ODMtNS41ODQtMTIuNjEyLTkuMTktMjAuMjQxLTEwLjQ4OQ0KCQkJYzQuMjk1LTEzLjA4NiwxLjI1OS0yOC4wNzMtOS4xMjgtMzguNDU5Yy01LjcxMS01LjcxLTEyLjgxNC05LjE5LTIwLjIyNy0xMC40NjJjMS4yNDItMy43NjksMS44OTctNy43NDksMS44OTctMTEuODMzDQoJCQljMC0xMC4wNjgtMy45MjEtMTkuNTMzLTExLjAzOS0yNi42NTFjLTcuMTE5LTcuMTE4LTE2LjU4NC0xMS4wMzktMjYuNjUxLTExLjAzOWMtNi4zOTMsMC0xMi41NCwxLjU4Ni0xOC4wMDEsNC41NjRsLTAuOTY1LTEuMDM3DQoJCQljLTEyLjU0Mi0xMy40NzgtMzAuMjk1LTIxLjIwNy00OC43MDQtMjEuMjA3aC03OC41NGMtNS41MjMsMC0xMC4wMDIsNC40NzktMTAuMDAyLDEwLjAwMnYxMy4xMTYNCgkJCWMwLDUuMjQ5LDAuODg4LDEwLjM1OSwyLjU4NiwxNS4xNjRjLTQuNTI0LTEuODc5LTkuNDE5LTIuODY2LTE0LjQ2NS0yLjg2NmMtMTAuMDY4LDAtMTkuNTMzLDMuOTIxLTI2LjY1MiwxMS4wMzkNCgkJCWMtMTAuMzkyLDEwLjM5Mi0xMy40MjUsMjUuMzktOS4xMiwzOC40OGMtNy40MTksMS4yNjktMTQuNTMyLDQuNzUxLTIwLjI0OCwxMC40NjZjLTcuMTE4LDcuMTE5LTExLjAzOSwxNi41ODQtMTEuMDM5LDI2LjY1MQ0KCQkJYzAsNC4wNzYsMC42NTMsOC4wNSwxLjg5LDExLjgxMWMtNy42MiwxLjMwMy0xNC42NDIsNC45MDctMjAuMjIsMTAuNDg2Yy0xMS40NzcsMTEuNDc3LTEzLjk5LDI4LjU3Ny03LjUzOSw0Mi41MTYNCgkJCWMtNi44MzEsMS41NjEtMTMuMTA1LDUuMDAxLTE4LjE4MywxMC4wNzhjLTE0LjY5NSwxNC42OTUtMTQuNjk1LDM4LjYwNywwLDUzLjMwM2wxOS45NTQsMTkuOTUzTDIuOTI5LDM5MS44OTMNCgkJCWMtMy45MDYsMy45MDYtMy45MDYsMTAuMjM5LDAsMTQuMTQ2YzEuOTUzLDEuOTUyLDQuNTEzLDIuOTMsNy4wNzIsMi45M3M1LjExOS0wLjk3Nyw3LjA3Mi0yLjkzbDk5LjE4Mi05OS4xODINCgkJCWM1LjYxNSwzLjIwNCwxMS45ODcsNC45MTgsMTguNjI4LDQuOTE4YzEwLjA2NywwLDE5LjUzMi0zLjkyMSwyNi42NTEtMTEuMDRjNy43MzQtNy43MzMsMTEuMzkyLTE4LjAyLDEwLjk4NS0yOC4xNzINCgkJCWMwLjUwNywwLjAyMSwxLjAxNCwwLjAzNiwxLjUyMSwwLjAzNmM5LjY1LTAuMDAxLDE5LjMwNS0zLjY3NSwyNi42NTEtMTEuMDIxYzcuMTE4LTcuMTE5LDExLjAzOS0xNi41ODQsMTEuMDM5LTI2LjY1MQ0KCQkJYzAtMC41MDktMC4wMTctMS4wMTUtMC4wMzctMS41MjFjMC41MDEsMC4wMiwxLjAwMiwwLjAzNiwxLjUwNCwwLjAzNmM5LjY1MSwwLDE5LjMwNC0zLjY3NCwyNi42NTEtMTEuMDIxDQoJCQljNy4xMTgtNy4xMTksMTEuMDM5LTE2LjU4NCwxMS4wMzktMjYuNjUxYzAtMC41MDktMC4wMTctMS4wMTUtMC4wMzctMS41MjFjMC41MDEsMC4wMiwxLjAwMiwwLjAzNiwxLjUwNCwwLjAzNg0KCQkJYzkuNjUyLDAsMTkuMzA0LTMuNjc0LDI2LjY1MS0xMS4wMjFjMTMuODA4LTEzLjgwOCwxNC42MzktMzUuNzUxLDIuNS01MC41NDJsNjYuMzk0LTY2LjM5NGMzLjM0MS0zLjM0Miw3Ljc4MS01LjE4MSwxMi41MDYtNS4xODENCgkJCXM5LjE2NiwxLjgzOSwxMi41MDcsNS4xODFjMy4zNDEsMy4zNDEsNS4xOCw3Ljc4MSw1LjE4LDEyLjUwNmMwLDQuNzI0LTEuODM5LDkuMTY2LTUuMTgxLDEyLjUwNmwtOS43ODksOS43ODlsLTM1LjUxOCwzNS41MTgNCgkJCWMtMy45MDYsMy45MDYtMy45MDYsMTAuMjM5LDAsMTQuMTQ2YzEuOTUzLDEuOTUyLDQuNTEzLDIuOTMsNy4wNzIsMi45M3M1LjExOS0wLjk3Nyw3LjA3Mi0yLjkzbDM1LjUxOC0zNS41MTgNCgkJCWM2Ljg5NS02Ljg5NiwxOC4xMTYtNi44OTcsMjUuMDEzLTAuMDAxYzYuODk2LDYuODk3LDYuODk2LDE4LjExNywwLDI1LjAxNGwtOS43OSw5Ljc5bC0yNS43MjgsMjUuNzI4DQoJCQljLTMuOTA2LDMuOTA2LTMuOTA2LDEwLjIzOSwwLDE0LjE0NmMxLjk1MywxLjk1Miw0LjUxMywyLjkzLDcuMDcyLDIuOTNzNS4xMTktMC45NzcsNy4wNzItMi45M2wyNS43MjgtMjUuNzI4DQoJCQljMy4zNDEtMy4zNDIsNy43ODItNS4xODEsMTIuNTA2LTUuMTgxYzQuNzI1LDAsOS4xNjYsMS44MzksMTIuNTA3LDUuMTgxYzMuMzQxLDMuMzQxLDUuMTgsNy43ODEsNS4xOCwxMi41MDYNCgkJCWMwLDQuNzI0LTEuODM5LDkuMTY2LTUuMTgxLDEyLjUwNmwtMTMuNDM3LDEzLjQzN2wtMTIuMjkxLDEyLjI5MWMtMy45MDYsMy45MDYtMy45MDYsMTAuMjM5LDAsMTQuMTQ2DQoJCQljMS45NTMsMS45NTIsNC41MTMsMi45Myw3LjA3MiwyLjkzczUuMTE5LTAuOTc3LDcuMDcyLTIuOTNsMTIuMy0xMi4zYzYuODk3LTYuODg1LDE4LjExMS02Ljg4NCwyNS4wMDQsMC4wMDkNCgkJCWM2Ljg5Nyw2Ljg5Niw2Ljg5NywxOC4xMTcsMCwyNS4wMTRsLTk3LjAyOCw5Ny4wMjdjLTI0LjM2NCwyNC4zNjUtNTYuNzQ1LDM4LjQ3LTkxLjE3OCwzOS43Mg0KCQkJYy0yLjUzMSwwLjA5Mi00LjkzNSwxLjE0MS02LjcyMywyLjkzN2wtODkuNjMyLDg5Ljk2NGMtMy44OTksMy45MTMtMy44ODgsMTAuMjQ2LDAuMDI2LDE0LjE0NQ0KCQkJYzEuOTUxLDEuOTQ0LDQuNTA1LDIuOTE3LDcuMDU5LDIuOTE3YzIuNTY1LDAsNS4xMzItMC45ODEsNy4wODUtMi45NDNsNjUuOTI3LTY2LjE3YzE2Ljc0NiwxMC43NDMsMzYuNDQsMTUuODUxLDU2LjQ2NSwxNC41MjcNCgkJCWw1MS41OTgsNTEuNTk5YzEuOTUzLDEuOTUyLDQuNTEzLDIuOTMsNy4wNzIsMi45M2MyLjU2LDAsNS4xMTktMC45NzcsNy4wNzItMi45M2MzLjkwNi0zLjkwNiwzLjkwNi0xMC4yMzksMC0xNC4xNDYNCgkJCWwtNTQuODYtNTQuODY2Yy0yLjA3Ny0yLjA3Ni00Ljk2My0zLjEzNy03Ljg5LTIuODk3bC0zLjE3MSwwLjI2Yy0xNC42MzcsMS4yLTI5LjEwNS0yLjAwNi00MS43MzctOS4wODVsNi40MjgtNi40NTENCgkJCUMzMTEuODk0LDM5Ni4wMjYsMzQ3LjQ4NiwzODAuMDA4LDM3NC40OTMsMzUzeiBNMTQ3LjM5LDI4Ni41OTFjLTMuMzQxLDMuMzQyLTcuNzgzLDUuMTgxLTEyLjUwNiw1LjE4MQ0KCQkJYy00LjcyNSwwLTkuMTY2LTEuODM5LTEyLjUwNi01LjE4MWwtMjcuMDI2LTI3LjAyNWMtNi44OTYtNi44OTYtNi44OTYtMTguMTE3LDAtMjUuMDE0YzMuMzQxLTMuMzQyLDcuNzgzLTUuMTgxLDEyLjUwNy01LjE4MQ0KCQkJYzQuNzI0LDAsOS4xNjYsMS44MzksMTIuNTA2LDUuMTgxbDI3LjAyNiwyNy4wMjVDMTU0LjI4NiwyNjguNDczLDE1NC4yODYsMjc5LjY5NCwxNDcuMzksMjg2LjU5MXogTTE4Ni41NDksMjQ3LjQzMg0KCQkJYy02Ljg5Nyw2Ljg5Ni0xOC4xMiw2Ljg5Ni0yNS4wMTQsMGwtMjcuMDI2LTI3LjAyNmwtMTMuNDM4LTEzLjQzOGMtNi44OTYtNi44OTYtNi44OTYtMTguMTE3LDAtMjUuMDEzDQoJCQljMy4zNDEtMy4zNDIsNy43ODMtNS4xODEsMTIuNTA2LTUuMTgxYzQuNzI1LDAsOS4xNjYsMS44MzksMTIuNTA2LDUuMTgxbDQwLjQ2Myw0MC40NjNjMCwwLDAsMCwwLjAwMSwwDQoJCQljMy4zNDIsMy4zNDIsNS4xODEsNy43ODMsNS4xODEsMTIuNTA3UzE4OS44ODksMjQ0LjA5MSwxODYuNTQ5LDI0Ny40MzJ6IE0yMjUuNzA2LDIwOC4yNzRjLTYuODk3LDYuODk1LTE4LjExOSw2Ljg5Ni0yNS4wMTQsMA0KCQkJbC01MC4yNTMtNTAuMjUzYy0zLjM0MS0zLjM0MS01LjE4LTcuNzgxLTUuMTgtMTIuNTA2YzAtNC43MjQsMS44MzktOS4xNjYsNS4xODEtMTIuNTA2YzMuNDQ4LTMuNDQ4LDcuOTc4LTUuMTcyLDEyLjUwNi01LjE3Mg0KCQkJYzQuNTI2LDAsOS4wNTEsMS43MjIsMTIuNDk4LDUuMTY0bDIyLjkwNCwyMi45MDRsMjcuMzU2LDI3LjM1NmgwLjAwMWMzLjM0LDMuMzQxLDUuMTc5LDcuNzgxLDUuMTc5LDEyLjUwNg0KCQkJQzIzMC44ODYsMjAwLjQ5MiwyMjkuMDQ3LDIwNC45MzQsMjI1LjcwNiwyMDguMjc0eiBNMjY0Ljg2NCwxNjkuMTE2Yy02Ljg5Niw2Ljg5Ni0xOC4xMTcsNi44OTYtMjUuMDEzLDBsLTUwLjI1My01MC4yNTMNCgkJCWMtMC4wMDUtMC4wMDUtMC4wMTEtMC4wMS0wLjAxNy0wLjAxNmwtOS43NzMtOS43NzNjLTYuODk2LTYuODk3LTYuODk2LTE4LjExNywwLTI1LjAxNGMzLjQ0OC0zLjQ0OSw3Ljk3OC01LjE3MywxMi41MDctNS4xNzMNCgkJCWM0LjUyOSwwLDkuMDU5LDEuNzI0LDEyLjUwNiw1LjE3M2w2MC4wNDEsNjAuMDQxYzMuMzQyLDMuMzQxLDUuMTgxLDcuNzgyLDUuMTgxLDEyLjUwNg0KCQkJQzI3MC4wNDQsMTYxLjMzMywyNjguMjA2LDE2NS43NzYsMjY0Ljg2NCwxNjkuMTE2eiBNMjY3LjQ5NCwxMTguNDQ0bC0yNy40NzItMjcuNDcyYzMuMTE1LDAuNjY1LDYuMzE4LDEuMDE4LDkuNTc4LDEuMDE3DQoJCQljMC4wNzMsMCwwLjE0NywwLDAuMjIxLDBsMjcuNDQ4LTAuMTI5YzUuNTIzLTAuMDI2LDkuOTgxLTQuNTI1LDkuOTU1LTEwLjA0OWMtMC4wMjYtNS41MDgtNC40OTktOS45NTUtMTAuMDAxLTkuOTU1DQoJCQljLTAuMDE2LDAtMC4wMzIsMC0wLjA0OCwwbC0yNy40NDgsMC4xMjljLTAuMDQyLDAtMC4wODIsMC0wLjEyNCwwYy02Ljc2MywwLTEzLjEyNC0yLjYyNS0xNy45Mi03LjM5OA0KCQkJYy00LjgyNi00LjgwNC03LjQ4My0xMS4xOTgtNy40ODMtMTguMDA4di0zLjExNGg2OC41MzhjMTIuODc1LDAsMjUuMjksNS40MDUsMzQuMDYyLDE0LjgzMWwwLjQwNywwLjQzN0wyNjcuNDk0LDExOC40NDR6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
             />
             <p>Our online <b>Report and Support tool </b> enables anyone to report
@@ -198,19 +197,11 @@
             support. If you have experienced or are aware of, sexual violence,
             sexual harassment or initiations behaviours affecting a Newcastle
             University student, you can report these directly to us via this
-            tool: reportandsupport.ncl.ac.uk </p>
+            tool:</p> <a href="https://reportandsupport.ncl.ac.uk/">reportandsupport.ncl.ac.uk </a>
         </div>
-          <div class="col-6">
-            Students can book an assessment appointment on our appointment site
-            studenthealthandwellbeing.ncl.ac.uk or request an appointment by
-            phoning on +44 (0)191 208 3333.<br />
-          
-            During the assessment appointment, the range of possible support
-            will be discussed with the student, depending on their particular
-            needs.
-            <br />So that students are seen as quickly as possible, encourage them to take the first assessment
-            appointment they are offered, even if this means missing a lecture
-            or a seminar.<br/> <b>Confidentiality needs to be respected at all times and
+          <div class="col-8">
+            <p><br/>
+            <b>Confidentiality needs to be respected at all times and
             sensitive information shared only with the explicit informed consent
             of the student.</b>  <br /> <b>Confidentiality can be broken: </b><br /> when a
             student is alerting you to a clear and present danger to self or a
@@ -222,26 +213,28 @@
             case can be discussed hypothetically without revealing names. 
             <br/><b>If you
             are seriously concerned about a student’s welfare, you or they
-            should contact the appropriate emergency services.</b>
+            should contact the appropriate emergency services.</b></p>
           </div>
         </div></b-tab
       >
       <b-tab title="Follow Up" class="tabsForSupport"
-        ><p>
+        >
+        <div class="col-6" style="margin-left:auto; margin-right:auto;">
+<img style="width:12%" src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIuMDMgNTEyLjAzIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMi4wMyA1MTIuMDMiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9IkZlZWRiYWNrIj48Zz48cGF0aCBkPSJtOTAuMDE1IDkwaDMwdjMwaC0zMHoiLz48L2c+PGc+PHBhdGggZD0ibTE1MC4wMTUgOTBoMzB2MzBoLTMweiIvPjwvZz48Zz48cGF0aCBkPSJtMjEwLjAxNSA5MGgzMHYzMGgtMzB6Ii8+PC9nPjxnPjxwYXRoIGQ9Im0uMDE1IDI2NC4yNzF2LTI2NC4yNzFoMzMwdjIxMGgtMjIxLjQ1OXptMzAtMjM0LjI3MXYxODUuNzI5bDcxLjQ1OS0zNS43MjloMTk4LjU0MXYtMTUweiIvPjwvZz48Zz48cGF0aCBkPSJtMzkyLjAxNSAzMzloMzB2MzBoLTMweiIvPjwvZz48Zz48cGF0aCBkPSJtMzMyLjAxNSAzMzloMzB2MzBoLTMweiIvPjwvZz48Zz48cGF0aCBkPSJtMjcyLjAxNSAzMzloMzB2MzBoLTMweiIvPjwvZz48Zz48cGF0aCBkPSJtNTEyLjAxNSA1MTIuMDMtMTA4LjQ3MS01My4wM2gtMjIxLjUyOXYtMjEwaDMzMHptLTMwMC04My4wM2gxOTguNDcxbDcxLjUyOSAzNC45N3YtMTg0Ljk3aC0yNzB6Ii8+PC9nPjwvZz48L3N2Zz4=" />        <p>
           This stage gives the student an opportunity to let you know of their
           progress and any additional support they might need. It also gives you
           an opportunity to check they are still on track, accessing support and
-          taking any action that you agreed would be helpful. <br />Following
-          up: <br />● should ideally be agreed in advance with the student so
-          they know when and how you will follow up with them <br />● enables
+          taking any action that you agreed would be helpful. <br /><b>Following
+          up: </b><br />should ideally be agreed in advance with the student so
+          they know when and how you will follow up with them; <br />enables
           you to go home with a clear mind and you are both aware of your role
-          in this situation <br />● relieves the pressure to have covered
-          everything in the initial meeting. The time in between the initial
+          in this situation; <br />relieves the pressure to have covered
+          everything in the initial meeting. <br/> The time in between the initial
           interaction and the follow up gives you an opportunity to think a bit
-          more about what might be useful and prepare for the student meeting
-          <br />● can be done by phone, email or face-to-face. Use your judgment
-          to decide what you think
-        </p></b-tab
+          more about what might be useful and prepare for the student meeting can be done by phone, email or face-to-face.
+        </p>
+        </div>
+        </b-tab
       >
     </b-tabs>
   </div>
@@ -275,7 +268,7 @@ header {
 .urgent {
   border: solid #940000 3px;
   border-radius: 10px;
-  padding-top: 0.5%;
+  padding-top: 2%;
   background-color: #94000020;
   color: #000;
 }
