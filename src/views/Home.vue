@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <div id="topbanner">
-      <img src="../assets/examstress.jpg" />
+      <img src="../assets/examstress.jpg" alt="An image of a person writing on a notebook" />
       <div id="text">
         <h1>5 tips for coping with exam stress at University</h1>
         <hr class="hrtest" />
         <section class="buttons">
           <div class="container">
-            <h3>By Student Minds</h3>
+            <h2><b>By Student Minds</b></h2>
             <a class="btn btn-border-4"  href="https://www.studentminds.org.uk/examstress.html"
               >Read More</a
             >
@@ -16,13 +16,13 @@
       </div>
     </div>
     <div id="topbanner2">
-      <img src="../assets/lgbt.jpg" />
+      <img src="../assets/lgbt.jpg" alt="Pride Flag flying in wind" />
       <div id="text">
         <h1>LGBTQ+ Support at University</h1>
         <hr class="hrtest" />
         <section class="buttons">
           <div class="container">
-            <h3>By Student Minds</h3>
+            <h2><b>By Student Minds</b></h2>
             <a class="btn btn-border-4" 
               href="https://www.studentminds.org.uk/lgbtq.html"
               >Read More</a
@@ -32,13 +32,13 @@
       </div>
     </div>
     <div id="topbanner">
-      <img src="../assets/mentalking.jpg" />
+      <img src="../assets/mentalking.jpg" alt="2 men are in a discussion"/>
       <div id="text">
         <h1>Men's Mental Health</h1>
         <hr class="hrtest" />
         <section class="buttons">
           <div class="container">
-            <h3>By Student Minds </h3>
+            <h2><b>By Student Minds</b></h2>
             <a class="btn btn-border-4" 
               href="https://www.studentminds.org.uk/mensmentalhealth.html"
               >Read More</a
@@ -48,13 +48,13 @@
       </div>
     </div>
     <div id="topbanner2">
-      <img src="../assets/studentBAME.jpg" id="BAME"/>
+      <img src="../assets/studentBAME.jpg" id="BAME" alt="2 BAME students are viewing code o na computer"/>
       <div id="text">
         <h1>Black, Asian & Minority Ethnic students' mental health support</h1>
         <hr class="hrtest" />
         <section class="buttons">
           <div class="container">
-            <h3>By MIND</h3>
+            <h2><b>By minds </b></h2>
             <a class="btn btn-border-4" 
               href="https://www.mind.org.uk/information-support/tips-for-everyday-living/student-life/for-bame-students/"
               >Read More</a
@@ -64,13 +64,13 @@
       </div>
     </div>
     <div id="topbanner">
-      <img src="../assets/friend.jpg" />
+      <img src="../assets/friend.jpg" alt="2 friends are talking over coffee" />
       <div id="text">
         <h1>Starting a conversation with a friend</h1>
         <hr class="hrtest" />
         <section class="buttons">
           <div class="container">
-            <h3>By Student Minds</h3>
+            <h2><b>By Student Minds</b></h2>
             <a class="btn btn-border-4" 
               href="https://www.studentminds.org.uk/startingaconversation.html"
           >Read More
@@ -229,11 +229,11 @@ a {
   float: left;
   width: 40%;
 }
-#topbanner h3 {
+#topbanner h2 {
   text-transform: uppercase;
   font-size: 1.4rem;
 }
-#topbanner2 h3 {
+#topbanner2 h2 {
   text-transform: uppercase;
   font-size: 1.4rem;
 }

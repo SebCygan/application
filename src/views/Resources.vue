@@ -4,15 +4,19 @@
   <!-- Use json-server data.json inside assets first then run serve the app to access the json data  -->
 
   <div id="app">
-    
     <div class="accordion" role="tablist">
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-0 variant="info" id="accordion-buttons" >
+          <b-button
+            block
+            v-b-toggle.accordion-0
+            variant="info"
+            id="accordion-buttons"
+          >
             General
-<hr>            
-          </b-button
-          >         </b-card-header>
+            <hr />
+          </b-button>
+        </b-card-header>
         <b-collapse
           id="accordion-0"
           visible
@@ -26,24 +30,34 @@
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <div id="inner-text" v-if= "resource.condition=='all'">
-             <h6> {{ resource.name }} </h6>
-            
-                  <a :href="'http://' + resource.url">{{ resource.url }}</a>
-                  <br>                {{resource.description}} 
-                  <br>
-                  <hr>
+                <div id="inner-text" v-if="resource.condition == 'all'">
+                  <h6>{{ resource.name }}</h6>
+
+                  {{ resource.description }}
+                  <br />
+                  <a
+                    class="btn btn-border-4 font-weight-bold"
+                    style="font-size: 0.8rem"
+                    :href="'http://' + resource.url"
+                    >More Information</a
+                  >
+                  <hr />
                 </div>
-              </div> 
+              </div>
             </b-card-text>
           </b-card-body>
         </b-collapse>
       </b-card>
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-1 variant="info" id="accordion-buttons"
-            >Depression <hr></b-button
-          >
+          <b-button
+            block
+            v-b-toggle.accordion-1
+            variant="info"
+            id="accordion-buttons"
+            >Depression
+            <hr
+          /></b-button>
         </b-card-header>
         <b-collapse
           id="accordion-1"
@@ -58,14 +72,20 @@
                 v-for="resource of resources"
                 :key="resource.id"
               >
-               <div id="inner text" v-if= "resource.condition=='depression'">
-                 <h6> {{ resource.name }} </h6>
-                  <a :href="'http://' + resource.url">{{ resource.url }}</a>
-                  <br>                  {{resource.description}}
-                  <br>                  <hr>
+                <div id="inner text" v-if="resource.condition == 'depression'">
+                  <h6>{{ resource.name }}</h6>
 
+                  {{ resource.description }}
+                  <br />
+                  <a
+                    class="btn btn-border-4 font-weight-bold"
+                    style="font-size: 0.8rem"
+                    :href="'http://' + resource.url"
+                    >More Information</a
+                  >
+                  <hr />
                 </div>
-              </div> 
+              </div>
             </b-card-text>
           </b-card-body>
         </b-collapse>
@@ -73,9 +93,14 @@
 
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-2 variant="info" id="accordion-buttons"
-            >Anxiety<hr></b-button
-          >
+          <b-button
+            block
+            v-b-toggle.accordion-2
+            variant="info"
+            id="accordion-buttons"
+            >Anxiety
+            <hr
+          /></b-button>
         </b-card-header>
         <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
           <b-card-body>
@@ -85,14 +110,20 @@
                 v-for="resource of resources"
                 :key="resource.id"
               >
-                <div id="inner text" v-if= "resource.condition=='anxiety'">
-                 <h6> {{ resource.name }} </h6>
-                  <a :href="'http://' + resource.url">{{ resource.url }}</a>
-                  <br>                  {{resource.description}}
-                  <br>
-                  <hr>
+                <div id="inner text" v-if="resource.condition == 'anxiety'">
+                  <h6>{{ resource.name }}</h6>
+
+                  {{ resource.description }}
+                  <br />
+                  <a
+                    class="btn btn-border-4 font-weight-bold"
+                    style="font-size: 0.8rem"
+                    :href="'http://' + resource.url"
+                    >More Information</a
+                  >
+                  <hr />
                 </div>
-              </div> 
+              </div>
             </b-card-text>
           </b-card-body>
         </b-collapse>
@@ -100,32 +131,110 @@
 
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-3 variant="info" id="accordion-buttons"
-            >Addiction<hr></b-button
-          >
+          <b-button
+            block
+            v-b-toggle.accordion-3
+            variant="info"
+            id="accordion-buttons"
+            >Abuse, Assault and Rape
+            <hr
+          /></b-button>
         </b-card-header>
         <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
           <b-card-body>
             <b-card-text>
-              <div
-                id="addiction"
-                v-for="resource of resources"
-                :key="resource.id"
-              >
-                <div id="inner text" v-if= "resource.condition=='addiction'">
-                 <h6> {{ resource.name }} </h6>
-                  <a :href="'http://' + resource.url">{{ resource.url }}</a>
-                  <br>                  {{resource.description}}
-                  <br>
-                  <hr>
+              <div id="abuse" v-for="resource of resources" :key="resource.id">
+                <div id="inner text" v-if="resource.condition == 'abuse'">
+                  <h6>{{ resource.name }}</h6>
+
+                  {{ resource.description }}
+                  <br />
+                  <a
+                    class="btn btn-border-4 font-weight-bold"
+                    style="font-size: 0.8rem"
+                    :href="'http://' + resource.url"
+                    >More Information</a
+                  >
+                  <hr />
                 </div>
-              </div> 
+              </div>
             </b-card-text>
           </b-card-body>
         </b-collapse>
       </b-card>
+      <b-card no-body class="mb-1">
+        <b-card-header header-tag="header" class="p-1" role="tab">
+          <b-button
+            block
+            v-b-toggle.accordion-4
+            variant="info"
+            id="accordion-buttons"
+            >Eating Disorders
+            <hr
+          /></b-button>
+        </b-card-header>
+        <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+          <b-card-body>
+            <b-card-text>
+              <div
+                id="eatingDisorders"
+                v-for="resource of resources"
+                :key="resource.id"
+              >
+                <div
+                  id="inner text"
+                  v-if="resource.condition == 'eatingDisorder'"
+                >
+                  <h6>{{ resource.name }}</h6>
 
-      
+                  {{ resource.description }}
+                  <br />
+                  <a
+                    class="btn btn-border-4 font-weight-bold"
+                    style="font-size: 0.8rem"
+                    :href="'http://' + resource.url"
+                    >More Information</a
+                  >
+                  <hr />
+                </div>
+              </div>
+            </b-card-text>
+          </b-card-body>
+        </b-collapse>
+      </b-card>
+      <b-card no-body class="mb-1">
+        <b-card-header header-tag="header" class="p-1" role="tab">
+          <b-button
+            block
+            v-b-toggle.accordion-5
+            variant="info"
+            id="accordion-buttons"
+            >Stress
+            <hr
+          /></b-button>
+        </b-card-header>
+        <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
+          <b-card-body>
+            <b-card-text>
+              <div id="stress" v-for="resource of resources" :key="resource.id">
+                <div id="inner text" v-if="resource.condition == 'stress'">
+                  <h6>{{ resource.name }}</h6>
+
+                  {{ resource.description }}
+                  <br />
+                  <a
+                    class="btn btn-border-4 font-weight-bold"
+                    style="font-size: 0.8rem"
+                    :href="'http://' + resource.url"
+                    >More Information</a
+                  >
+                  <hr />
+                </div>
+              </div>
+            </b-card-text>
+          </b-card-body>
+        </b-collapse>
+      </b-card>
     </div>
 
     <div></div>

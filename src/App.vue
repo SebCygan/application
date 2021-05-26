@@ -3,7 +3,7 @@
 
     <router-link to="/" class="home">
     
-      <img src="./assets/Newcastle_University_logo.png" class="logo" />
+      <img src="./assets/Newcastle_University_logo.png" alt="Newcastle University Logo" class="logo" />
     </router-link>   
 
     <b-navbar class="header" sticky="true" id="nav">
